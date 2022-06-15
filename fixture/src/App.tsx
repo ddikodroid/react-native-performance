@@ -5,6 +5,7 @@ import {PerformanceProfiler, LogLevel} from '@shopify/react-native-performance';
 import {ListsProfiler} from '@shopify/react-native-performance-lists-profiler';
 import {ApolloClient, ApolloProvider, InMemoryCache} from '@apollo/client';
 
+import FlashListScreen from './examples/FlashListScreen';
 import {ExamplesScreen} from './examples';
 import PerformanceScreen from './examples/PerformanceScreen';
 import FlatListScreen from './examples/FlatListScreen';
@@ -29,6 +30,7 @@ const NavigationTree = () => {
         <Stack.Screen name={NavigationKeys.FAST_RENDER_PASSES_SCREEN} component={FastRenderPassesScreen} />
         <Stack.Screen name={NavigationKeys.CONDITIONAL_RENDERING_SCREEN} component={ConditionalRenderingScreen} />
         <Stack.Screen name={NavigationKeys.FLAT_LIST_SCREEN} component={FlatListScreen} />
+        <Stack.Screen name={NavigationKeys.FLASH_LIST_SCREEN} component={FlashListScreen} />
         <Stack.Screen name={NavigationKeys.NESTED_NAVIGATION_SCREEN} component={NestedNavigationScreen} />
         <Stack.Screen
           name={NavigationKeys.NESTED_PROFILER_CONTEXT}

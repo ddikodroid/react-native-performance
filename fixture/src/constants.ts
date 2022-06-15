@@ -10,6 +10,7 @@ export const NavigationKeys = {
   DRAWER_NAVIGATOR_SCREEN_1: 'DrawerNavigatorScreen1' as const,
   DRAWER_NAVIGATOR_SCREEN_2: 'DrawerNavigatorScreen2' as const,
   FLAT_LIST_SCREEN: 'FlatListScreen' as const,
+  FLASH_LIST_SCREEN: 'FlashListScreen' as const,
   NESTED_NAVIGATION_SCREEN: 'NestedNavigationScreen' as const,
   NESTED_PROFILER_CONTEXT: 'NestedProfilerContext' as const,
   NESTED_CONTEXT_SCREEN: 'NestedContextScreen' as const,

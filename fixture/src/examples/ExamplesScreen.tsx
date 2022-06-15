@@ -42,6 +42,7 @@ export const ExamplesScreen = () => {
             title: 'FlatList Screen',
             destination: NavigationKeys.FLAT_LIST_SCREEN,
           },
+          {title: 'FlashList Screen', destination: NavigationKeys.FLASH_LIST_SCREEN},
           {
             title: 'Nested Context Screen',
             destination: NavigationKeys.NESTED_PROFILER_CONTEXT,

@@ -16,6 +16,7 @@
     "@react-navigation/drawer": "6.4.1",
     "@react-navigation/native": "6.0.10",
     "@react-navigation/stack": "6.2.1",
+    "@shopify/flash-list": "^0.6.1",
     "@shopify/flipper-plugin-react-native-performance": "1.0.0",
     "@shopify/react-native-performance": "4.0.0",
     "@shopify/react-native-performance-lists-profiler": "1.0.0",
